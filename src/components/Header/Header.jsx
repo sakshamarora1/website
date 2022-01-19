@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-function Header() {
+function Header({scroll}) {
     const [active,setActive] = React.useState("about");
     return (
         <header>
