@@ -4,7 +4,7 @@ import Background from "./background";
 
 function JoinTo() {
     return (
-        <div className="min-h-screen max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto">
             {/* Background */}
             <h2 className="text-lg font-bold text-[#0B4870] text-center pt-12">
                 JOIN TO

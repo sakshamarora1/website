@@ -3,6 +3,7 @@ import About from "../components/about";
 import Header from "../components/header";
 import JoinTo from "../components/jointo";
 import Landing from "../components/landing";
+import SubmitIdea from "../components/submit_idea";
 
 export default function Home() {
     return (
@@ -18,8 +19,9 @@ export default function Home() {
             <Header />
             <main className="relative">
                 <Landing />
-                <About/>
-                <JoinTo/>
+                <About />
+                <JoinTo />
+                <SubmitIdea />
             </main>
         </div>
     );
