@@ -44,7 +44,7 @@ function About() {
                             objectFit="contain"
                         />
                     </div>
-                    <div className="flex-col text-center items-center mx-6 md:order-4 px-4">
+                    <div className="flex-col text-center items-center mx-6 md:order-4 px-4 md:pb-6">
                         {/* Content */}
                         <h3 className="font-bold text-center text-3xl text-[#0B4870]">
                             Where can we add value?

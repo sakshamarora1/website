@@ -1,6 +1,7 @@
 import Head from "next/head";
 import About from "../components/about";
 import Header from "../components/header";
+import JoinTo from "../components/jointo";
 import Landing from "../components/landing";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
             <main className="relative">
                 <Landing />
                 <About/>
+                <JoinTo/>
             </main>
         </div>
     );

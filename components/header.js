@@ -5,7 +5,7 @@ import GitHubLogo from "./github_logo";
 
 function Header() {
     return (
-        <nav className="fixed top-0 z-50 w-full bg-white">
+        <nav className="fixed top-0 z-50 w-full bg-white shadow-md px-4">
             <div className="flex justify-between items-center max-w-7xl mx-auto">
                 <div className="relative h-24 w-24">
                     <Image
