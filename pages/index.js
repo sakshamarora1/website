@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/about";
 import Header from "../components/header";
 import Landing from "../components/landing";
 
@@ -16,6 +17,7 @@ export default function Home() {
             <Header />
             <main className="relative">
                 <Landing />
+                <About/>
             </main>
         </div>
     );

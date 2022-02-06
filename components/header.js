@@ -57,7 +57,7 @@ function Header() {
                         <GitHubLogo className="hover:fill-black" />
                     </div>
                     <div className="relative w-8">
-                        <DiscordLogo className="hover:fill-purple-400" />
+                        <DiscordLogo className="hover:fill-[#5165F6]" />
                     </div>
                 </nav>
             </div>
