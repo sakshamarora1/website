@@ -4,8 +4,15 @@ import Background from "./background";
 
 function Landing() {
     return (
-        <div className="min-h-screen bg-[#DDEEFD]">
+        <div className="min-h-screen relative">
             {/* Background */}
+            <div className="w-full h-full absolute -z-10">
+                <img
+                  src="./background.svg"
+                  alt="landing background"
+                  className="w-full h-full min-h-screen object-cover top-0 right-0"
+                />
+            </div>
             <div className="flex justify-center lg:justify-between max-w-7xl items-center h-screen mx-auto">
                 <div className="flex-col lg:pl-4 text-center lg:text-left items-center">
                     {/* Content */}
