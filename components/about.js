@@ -4,7 +4,7 @@ import Background from "./background";
 
 function About() {
     return (
-        <div className=" max-w-7xl mx-auto">
+        <div id="about" className=" max-w-7xl mx-auto">
             {/* Background */}
             <h2 className="text-xl font-bold text-[#0B4870] underline underline-offset-8 decoration-[#FFA62B] text-center pt-12">
                 ABOUT
