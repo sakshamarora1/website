@@ -52,7 +52,7 @@ function Header() {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/projects"
                                 className="md:hover:border-b-2 pb-1 border-b-orange-400 hover:font-semibold"
                             >
                                 Projects
