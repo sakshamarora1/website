@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "gh-pages -d build",
+    "deploydev": "gh-pages -d build -e dev"
   },
   "dependencies": {
     "next": "12.0.10",

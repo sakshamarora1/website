@@ -11,8 +11,8 @@ function ProjectCard({image, title, description, github, deployment}) {
         <div className="hidden group-hover:flex group-hover:flex-col items-center px-5">
           <p className="text-sm text-center font-medium mb-4">{description}</p>
           <div className="flex flex-row justify-center gap-4">
-            <a target="_blank" href={github}><GitHubLogo className="fill-slate-500 hover:fill-black"/></a>
-            <a target="_blank" href={deployment}><DeploymentLogo className="fill-slate-500 hover:fill-black"/></a>
+            <a target="_blank" rel="noreferrer" href={github}><GitHubLogo className="fill-slate-500 hover:fill-black"/></a>
+            <a target="_blank" rel="noreferrer" href={deployment}><DeploymentLogo className="fill-slate-500 hover:fill-black"/></a>
           </div>
         </div>
       </div>
