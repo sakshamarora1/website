@@ -7,10 +7,11 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "gh-pages -d build",
-    "deploydev": "gh-pages -d build -e dev"
+    "deploy": "gh-pages -d out -t true",
+    "deploydev": "gh-pages -d out -e dev -t true"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
